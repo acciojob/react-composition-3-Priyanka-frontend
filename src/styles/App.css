@@ -1,1 +1,44 @@
+body {
+  margin: 0;
+  font-family: Georgia, serif;
+}
 
+.app {
+  margin: 80px 0 0 45px;
+}
+
+.tooltip {
+  position: relative;
+  display: block;
+  width: 190px;
+  margin-bottom: 55px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #999;
+  cursor: pointer;
+}
+
+.tooltip h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.tooltip p {
+  margin: 0;
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+.tooltiptext {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  background-color: red;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 4px;
+
+  white-space: nowrap;
+  z-index: 10;
+}
